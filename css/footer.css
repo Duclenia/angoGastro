@@ -1,0 +1,91 @@
+
+footer{
+    background-color: #33333B;
+    padding: 50px 50px;
+}
+
+
+#rodape1 {
+    background-color: #33333B;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+#rodape1 div {
+    flex: 1 1 calc(50% - 20px);
+    min-width: 200px;
+}
+#rodape1 h3 {
+  
+    color: #EA9D3F;
+    font-size: 25px;
+}
+#rodape1 p,
+#rodape1 ul {
+ font-size: 20px;
+    list-style: none;
+    color: white;
+}
+#rodape1 ul li {
+    margin: 5px 2px;
+}
+#rodape1 ul li a {
+    color: #fff;
+    text-decoration:none;
+}
+#rodape1 a img {
+    width: 24px;
+    height: 24px;
+    margin: 5px;
+}
+#form {
+    display: flex;
+    margin-top: 10px;
+}
+#texto {
+    background-color: #fff;
+    flex: 1;
+    padding: 0px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+}
+#botao {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+  
+    background-color: #333;
+    color: #fff;
+    background-color: #EA9D3F;
+    cursor: pointer;
+}
+
+@media (min-width: 900px) {
+    #rodape1 div {
+        flex: 1 1 calc(25% - 20px);
+    }
+}
+
+
+.scrollup {
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+    display: none;
+    background: url(../imagem/icon_top.png) no-repeat;
+}
+
+#mensagem {
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.error {
+    color: red;
+}
+
+.success {
+    color: green;
+}

@@ -1,0 +1,185 @@
+#banner-principal{
+    background-size: cover;
+    background:url("../imagem/banner.jpg") no-repeat center top;
+	background-attachment:fixed;
+	background-size:cover;
+	height:100vh;
+	min-height:100%;
+}
+.banner-text {
+    display: table;
+    height: 60%;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+#texto-amor {
+    display: none;
+}
+.banner-cell {
+    display: table-cell;
+    vertical-align: middle;
+    color: #fff;
+}
+.banner-text h1 {
+    
+    letter-spacing: 2.7px;
+    position: relative;
+	font-size: 74px;
+    line-height: 100px;
+	color:#fff;
+	padding-top:100px;
+  
+}
+.banner-text h1 span {
+   display: inline-block;
+   color: #EA9D3F;
+   border-bottom: 2px solid #EA9D3F;
+}
+
+/* sobre Nós */
+#sobre{
+    background:#E6E6E6;
+    padding: 20px 50px;
+    display: flex;
+}
+
+.sobre-texto{
+    position: relative;
+    padding: 30px;
+}
+.sobre-titulo{
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
+	font-size:52px;
+	font-weight: bold;
+}
+
+.sobre-imagem {
+    text-align: right;
+    position: relative;
+}
+
+#sobre h3{
+   
+    font-weight: 600;
+	font-size:20px;
+}
+
+.sobre-imagem img {
+    border: 10px solid #f1f1f1;
+    border-radius: 999px; 
+}
+
+.sobre-imagem img {
+    border: 10px solid #f1f1f1;
+    border-radius: 999px;
+	max-width: 70%;
+}
+
+.sobre-inset {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.sobre-inset img{
+    max-width: 40%;
+}
+
+/* Pratos */
+
+.pratos{
+    position: relative;
+    padding: 120px 50px;
+    background: url(../imagem/pratos.jpg) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;  
+    flex-wrap: wrap;
+   
+ 
+}
+.pratos:before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.67);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.pratos-item {
+    flex: 1 1 calc(100% - 20px);
+    position: relative;
+    margin: 10px;
+    border: 1px solid #222222;
+    border-radius: 20%;
+    overflow: hidden;
+    transition: transform 0.2s;
+
+}
+
+.pratos-item:hover {
+    transform: scale(1.05);
+}
+
+.pratos-item img {
+    width: 100%;
+    height: 200px;
+
+}
+
+.pratos-item a {
+    text-decoration: none;
+   
+}
+
+.pratos-price {
+    display: block;
+    padding: 10px;
+    background-color: #222222;
+    text-align: center;
+    font-weight: bold;
+    color: #f8f8f8;
+    font-size: 26px;
+
+}
+
+@media (min-width: 600px) {
+    .pratos-item {
+        flex: 1 1 calc(50% - 20px);
+    }
+
+}
+
+@media (min-width: 900px) {
+    .pratos-item {
+        flex: 1 1 calc(33.333% - 20px);
+    }
+} 
+
+
+
+.gal-container{
+display: flex;
+}
+.gal-item{
+	overflow: hidden;
+	padding: 3px;
+}
+.gal-item .box{
+	height: 350px;
+	overflow: hidden;
+}
+.box img{
+	height: 100%;
+	width: 100%;
+	object-fit:cover;
+	-o-object-fit:cover;
+   
+}
+.box img:hover{
+    filter: brightness(1.3); /* Aumenta o brilho ao passar o mouse */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3); 
+}
+

@@ -1,0 +1,64 @@
+#banner{
+    background-size: cover;
+    background:url("../imagem/banner.jpg") no-repeat center top;
+	background-attachment:fixed;
+	background-size:cover;
+	height:40vh;
+	min-height:100%;
+}
+.banner-text {
+    display: table;
+    height: 60%;
+    padding: 10px;
+}
+.banner-text h1 {
+    letter-spacing: 2.7px;
+    position: relative;
+	font-size: 74px;
+    line-height: 100px;
+	color:#fff;
+	padding-top:100px;
+  
+}
+.banner-text h1 span {
+   display: inline-block;
+   color: #EA9D3F;
+   border-bottom: 2px solid #EA9D3F;
+}
+.sobre-nos{
+    padding: 0 25%;
+    font-size: 25px;
+}
+#contato{
+    background:#E6E6E6;
+    padding: 80px 50px;
+}
+#pratos{
+    display: flex;
+    padding: 70px 50px;
+}
+
+#form-contacto .form{
+    display: flex;
+    padding-right: 70px;
+    margin:12px ;
+  
+}
+
+
+.form input, textarea{
+    background-color: #fff;
+    height:40px;
+    border: 0px;
+    padding: 0px 20px;
+    margin: 20px;
+    color: #000;
+}
+#form-contacto .botao{
+background-color: #EA9D3F;
+    height: 40px;
+    border: 0px;
+    margin: 0px 30px;
+    padding: 0px 23px;
+    color: white;
+}
