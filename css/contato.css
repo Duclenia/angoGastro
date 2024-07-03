@@ -13,7 +13,6 @@
 }
 .banner-text h1 {
     letter-spacing: 2.7px;
-    position: relative;
 	font-size: 74px;
     line-height: 100px;
 	color:#fff;
@@ -40,7 +39,6 @@
 
 #form-contacto .form{
     display: flex;
-    padding-right: 70px;
     margin:12px ;
   
 }
@@ -51,6 +49,7 @@
     height:40px;
     border: 0px;
     padding: 0px 20px;
+
     margin: 20px;
     color: #000;
 }
@@ -61,4 +60,14 @@ background-color: #EA9D3F;
     margin: 0px 30px;
     padding: 0px 23px;
     color: white;
+}
+
+@media (max-width: 768px) {
+    .form {
+        flex-direction: column;
+    }
+
+    input, textarea {
+        width: 100%;
+    }
 }

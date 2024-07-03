@@ -24,10 +24,10 @@
 .banner-text h1 {
     
     letter-spacing: 2.7px;
-    position: relative;
 	font-size: 74px;
     line-height: 100px;
 	color:#fff;
+    text-align: center;
 	padding-top:100px;
   
 }
@@ -93,8 +93,8 @@
     background: url(../imagem/pratos.jpg) no-repeat center;
     background-attachment: fixed;
     background-size: cover;
-    display: flex;  
-    flex-wrap: wrap;
+     
+  
    
  
 }
@@ -106,6 +106,19 @@
     position: absolute;
     top: 0;
     left: 0;
+}
+.prato{
+    flex-wrap: wrap;
+    display: flex; 
+}
+.pratos h3{
+    position: relative;
+    letter-spacing: 2.7px;
+	font-size: 74px;
+    line-height: 100px;
+	color:#ffffff;
+    text-align: center;
+	
 }
 
 .pratos-item {

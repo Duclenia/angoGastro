@@ -14,7 +14,7 @@
 }
 .banner-text h1 {
     letter-spacing: 2.7px;
-    position: relative;
+    
 	font-size: 74px;
     line-height: 100px;
 	color:#fff;
@@ -31,12 +31,14 @@
     display: flex;
     padding: 50px 50px;
 }
+@media(min-width: 768px){
 .pratos {
     position: relative;
     overflow: hidden;
     color: #000;
     margin: 10px;
     width: 50%;
+}
 }
 
   .pratos-item .item-header {
@@ -56,6 +58,7 @@
       color: #e75b1e;
   }
   .pratos-item{
+   
       border:1px solid #e75b1e;
   }
 
@@ -72,3 +75,21 @@
     font-size: 24px;
     text-align: center;
   }
+
+
+  @media (max-width: 768px) {
+    #pratos {
+        flex-direction: column;
+        align-items: center;
+    }
+    .pratos {
+      position: relative;
+      overflow: hidden;
+      color: #000;
+      margin: 10px;
+     
+  }
+    .pratos-item {
+        width: 100%; /* Largura maior em telas menores */
+    }
+}
